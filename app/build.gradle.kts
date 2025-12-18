@@ -16,7 +16,7 @@ android {
     applicationId = "com.lucid.autoalerts"
     minSdk = 24
     targetSdk = 34 // Changed from 35
-    versionCode = 106
+    versionCode = 107
     versionName = "1.0.3"
     testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     vectorDrawables { useSupportLibrary = true }
