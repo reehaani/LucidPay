@@ -1,4 +1,4 @@
-// Top-level build file where you can add configuration options common to all sub-projects/modules.
+﻿// Top-level build file where you can add configuration options common to all sub-projects/modules.
 import java.util.Properties
 import java.io.FileInputStream
 
@@ -16,7 +16,7 @@ android {
     applicationId = "com.lucid.autoalerts"
     minSdk = 24
     targetSdk = 34 // Changed from 35
-    versionCode = 105
+    versionCode = 106
     versionName = "1.0.3"
     testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     vectorDrawables { useSupportLibrary = true }
@@ -167,9 +167,9 @@ dependencies {
   // Coil for image loading (for profile pictures)
   implementation("io.coil-kt:coil-compose:2.5.0")
 
-  // ════════════════════════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   // LICENSE SYSTEM - Supabase Dependencies (Optional - for future use)
-  // ════════════════════════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   // NOTE: Currently using OkHttp directly for Supabase API calls (already included above)
   // Uncomment below if you want to use the official Supabase Kotlin client later:
   //
@@ -179,7 +179,7 @@ dependencies {
   // implementation("io.ktor:ktor-client-android:2.3.5")
   //
   // For now, the licensing system works with OkHttp (no additional dependencies needed)
-  // ════════════════════════════════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 
   testImplementation("junit:junit:4.13.2")
   androidTestImplementation("androidx.test.ext:junit:1.2.1")
@@ -189,3 +189,4 @@ dependencies {
   debugImplementation("androidx.compose.ui:ui-tooling")
   debugImplementation("androidx.compose.ui:ui-test-manifest")
 }
+
